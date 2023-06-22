@@ -810,11 +810,11 @@ ol {
     width: 100%;
 }
 
-.row-item:hover .row-cover-text {
+.row-link:hover .row-cover-text {
     transform: translateY(0); 
 }
 
-.row-item:focus .row-cover-text {
+.row-link:focus .row-cover-text {
     transform: translateY(0);
 }
 
