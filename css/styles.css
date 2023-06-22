@@ -532,7 +532,7 @@ ol {
     height: 100%;
     background-color: rgba(46, 47, 66, 0.4);
     top: 0;
-    transition: opacity 300ms linear, visability 300ms linear;
+    transition: opacity 250ms linear, visability 250ms linear;
 }
 
 .modal {
