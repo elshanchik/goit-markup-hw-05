@@ -814,6 +814,10 @@ ol {
     transform: translateY(0); 
 }
 
+.row-item:focus .row-cover-text {
+    transform: translateY(0);
+}
+
 .img-portfolio {
     display: block;
 }
