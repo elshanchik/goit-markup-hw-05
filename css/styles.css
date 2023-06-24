@@ -131,6 +131,23 @@ ol {
     background-color: #404BBF;
 }
 
+.emphasis {
+    color: var(--about-color);
+    position: relative;
+}
+
+.header-text.emphasis::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #404BBF;
+}
+
 /* ADDRESS */
 
 .header-address-list {
@@ -157,22 +174,6 @@ ol {
     color: var(--about-color);
 }
 
-.emphasis {
-    color: var(--about-color);
-    position: relative;
-}
-
-.header-text.emphasis::after {
-    content: "";
-    display: block;
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    width: 100%;
-    height: 4px;
-    border-radius: 2px;
-    background-color: #404BBF;
-}
 
 /* BUTTON */
 
